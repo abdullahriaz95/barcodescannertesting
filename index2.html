@@ -8,17 +8,13 @@
 <div>
     <input type="text" id="scanner" />
 </div>
-<button onclick="triggerScanner()">Trigger</button>
+<button onclick="Singleton.getInstance().triggerScanner();">Trigger</button>
 
 <script src="./ScannerJS.js"></script>
 
 <script type="text/javascript">
     Singleton.getInstance().setElementId('scanner');
     Singleton.getInstance().inputDataInId('This is the data');
-    
-    function triggerScanner() {
-        BarcodeScanner.Trigger();
-    } 
 </script>
 </body>
 
