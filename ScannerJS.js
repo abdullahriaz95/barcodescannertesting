@@ -26,6 +26,10 @@ var Singleton = (function () {
             this.triggerScanner = function(){
         BarcodeScanner.Trigger();
     }
+                    
+            this.openKeyboard = function(){
+        BarcodeScanner.OpenKeyboard();
+    }
 
     //   this.inputDataInClass = function(data){
     //     // document.querySelector('.'+this.element).value = data;
