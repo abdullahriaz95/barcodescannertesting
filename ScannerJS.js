@@ -24,17 +24,17 @@ var Singleton = (function () {
       }
             
             this.triggerScanner = function(){
-        BarcodeScanner.Trigger();
+        EnterpriseScanner.Trigger();
     }
                     
             this.openKeyboard = function(){
-        BarcodeScanner.OpenKeyboard();
+        EnterpriseScanner.OpenKeyboard();
     }
             
             
                           
             this.closeKeyboard = function(){
-        BarcodeScanner.CloseKeyboard();
+        EnterpriseScanner.CloseKeyboard();
     }
 
     //   this.inputDataInClass = function(data){
