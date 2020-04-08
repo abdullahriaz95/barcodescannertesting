@@ -23,18 +23,20 @@ var Singleton = (function () {
           document.querySelector('#'+this.element).value = data;
       }
             
-            this.triggerScanner = function(){
+      this.triggerScanner = function(){
         EnterpriseScanner.Trigger();
     }
                     
-            this.openKeyboard = function(){
+      this.openKeyboard = function(){
         EnterpriseScanner.OpenKeyboard();
     }
-            
-            
-                          
-            this.closeKeyboard = function(){
+                               
+      this.closeKeyboard = function(){
         EnterpriseScanner.CloseKeyboard();
+    }
+            
+       this.resizePage = function(isResizing){
+        EnterpriseScanner.PageResizing(isResizing);
     }
 
     //   this.inputDataInClass = function(data){
