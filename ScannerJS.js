@@ -1,6 +1,8 @@
 var Singleton = (function () {
       var instance;
       var element;
+      var logs;
+
   
       function ScannerJS(){
 
@@ -22,6 +24,14 @@ var Singleton = (function () {
       this.inputDataInId = function(data){
           document.querySelector('#'+this.element).value = data;
       }
+          
+       this.updateLogs = function(data){
+         this.logs = data;
+      }
+            
+          this.getLogs = function(){
+         return logs;
+      }   
             
       this.triggerScanner = function(){
         EnterpriseScanner.Trigger();
