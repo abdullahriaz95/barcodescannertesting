@@ -27,7 +27,7 @@ var Singleton = (function () {
           
        this.updateLogs = function(data){
              alert(data);
-         this.logs = data;
+//          this.logs = data;
       }
             
           this.getLogs = function(){
