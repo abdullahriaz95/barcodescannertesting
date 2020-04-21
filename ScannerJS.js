@@ -30,6 +30,7 @@ var Singleton = (function () {
       }
             
           this.getLogs = function(){
+                alert(logs);
          return logs;
       }   
       
