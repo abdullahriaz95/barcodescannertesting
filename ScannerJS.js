@@ -32,6 +32,10 @@ var Singleton = (function () {
           this.getLogs = function(){
          return logs;
       }   
+      
+          this.fetchLogs = function(){
+         EnterpriseScanner.GetBrowserLogs();
+      } 
             
       this.triggerScanner = function(){
         EnterpriseScanner.Trigger();
