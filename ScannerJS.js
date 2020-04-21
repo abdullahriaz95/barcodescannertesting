@@ -31,8 +31,8 @@ var Singleton = (function () {
       }
             
           this.getLogs = function(){
-                alert(logs);
-         return logs;
+                alert(this.logs);
+         return this.logs;
       }   
       
           this.fetchLogs = function(){
