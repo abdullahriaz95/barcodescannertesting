@@ -1,5 +1,7 @@
 <html>
 <head>
+<!--     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/> -->
+
     <title>
         Web View Test
     </title>
@@ -7,17 +9,92 @@
 <body>
 <div>
     <input type="text" id="scanner" />
+    <input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+    
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+    
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
 </div>
-<button onclick="Singleton.getInstance().triggerScanner();">Trigger</button>
+<div><button onclick="Singleton.getInstance().triggerScanner();">Trigger</button></div>
+<div><button onclick="Singleton.getInstance().openKeyboard();">Open Keyboard</button></div>
+<div><button onclick="Singleton.getInstance().closeKeyboard();">Close Keyboard</button></div>
+    <div><button onclick="Singleton.getInstance().resizePage(true);">resize page true</button></div>
+    <div><button onclick="Singleton.getInstance().resizePage(false);">resize page false</button></div>
+    <div><button onclick="Singleton.getInstance().fetchLogs();">Fetch Logs</button></div>
+    <div><button onclick="Singleton.getInstance().getLogs();">Show Logs</button></div>
+<div><a href="./index2.html">Second Page</a></div>
+
+
 
 <script src="./ScannerJS.js"></script>
 
 <script type="text/javascript">
-    Singleton.getInstance().setElementId('scanner');
-    Singleton.getInstance().inputDataInId('This is the data');
+    Singleton.getInstance().setElementId('scanner');   
 </script>
 </body>
 
 
 
 </html>
+
