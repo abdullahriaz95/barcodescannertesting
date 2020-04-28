@@ -54,6 +54,17 @@ var Singleton = (function () {
        this.resizePage = function(isResizing){
         EnterpriseScanner.PageResizing(isResizing);
     }
+            
+               this.setTimeoutValue = function(value){
+        EnterpriseScanner.SetTimeoutValue(value);
+    }
+                     this.startKiosk = function(){
+        EnterpriseScanner.StartKiosk();
+    }
+            
+                     this.stopKiosk = function(){
+        EnterpriseScanner.StopKiosk();
+    }
 
     //   this.inputDataInClass = function(data){
     //     // document.querySelector('.'+this.element).value = data;
