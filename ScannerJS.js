@@ -65,6 +65,11 @@ var Singleton = (function () {
                      this.stopKiosk = function(){
         EnterpriseScanner.StopKiosk();
     }
+            
+                    
+                     this.refreshPage = function(){
+        EnterpriseScanner.Refresh();
+    }
 
     //   this.inputDataInClass = function(data){
     //     // document.querySelector('.'+this.element).value = data;
